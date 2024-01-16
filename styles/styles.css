@@ -416,6 +416,356 @@ padding-top: 10px;
  }
 
 
+ .my-card-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    width: 1820px;
+    justify-content: center;
+  
+  
+  
+    
+  }
+  .my-card{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+  
+  
+  }
+  .my-card{
+    padding: 32px;
+  }
+ 
+  
+  .my-title{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 24px 0px;
+  }
+  .my-describe{
+    width: 486px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+   
+  }
+  .my-ending{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+  
+  }
+  .my-cards{
+      border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+      width: 573px;
+      height: 284px;
+    
+      padding: 32px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+  }
+
+
+
+  /* -------- */
+  
+  .discount{
+    padding: 200px 0px;
+    margin: auto;
+  }
+  .discount-title{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+  }
+  .discount-para{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+width: 643px;
+justify-content: center;
+padding: 0px 600px;
+padding-top: 10px;
+
+ }
+/* /hotel part strats from here */ */
+.hotel{
+
+  
+   
+    width: 1500px;
+    
+  
+   
+   justify-content: center;
+   padding-left: 20%;
+
+}
+.background1{
+     background-image: url('../Images/Group\ 39.png'); 
+     background-repeat: no-repeat;
+    margin-left: 10px;
+    width: 1180px;
+    height: 500px;
+    margin-bottom: 10%;
+}
+
+.layout{
+    border-radius: 16px;
+
+    backdrop-filter: blur(2.5px);
+    background: rgba(255, 255, 255, 0.80);
+    width: 579px;
+    height: 389px;
+    flex-shrink: 0;
+    position: relative;
+    left: 45%;
+    top: 10%;
+
+}
+.layout-1{
+    padding: 50px;
+}
+
+
+.background2{
+    background-image: url('../Images/Group\ 40.png'); 
+    background-repeat: no-repeat;
+   margin-left: 10px;
+   width: 1180px;
+   height: 500px;
+   margin-bottom: 3%;
+}
+
+.layout2{
+    border-radius: 16px;
+   
+    backdrop-filter: blur(2.5px);
+    background: rgba(255, 255, 255, 0.80);
+    width: 579px;
+    height: 389px;
+    flex-shrink: 0;
+    position: relative;
+    left: 10%;
+    top: 7%;
+}
+.layout-2{
+    padding: 50px;
+}
+
+.background3{
+    background-image: url('../Images/Group\ 40.png'); 
+    background-repeat: no-repeat;
+   margin-left: 10px;
+   width: 1180px;
+   height: 500px;
+   margin-bottom: 3%;
+}
+
+.layout3{
+    border-radius: 16px;
+    
+    backdrop-filter: blur(2.5px);
+    background: rgba(255, 255, 255, 0.80);
+    width: 579px;
+    height: 389px;
+    flex-shrink: 0;
+    position: relative;
+    left: 45%;
+    top: 7%;
+}
+.layout-3{
+    padding: 50px;
+}
+.btn-4{
+    margin-left: 25%;
+    
+}
+
+
+/* ------ */
+
+/**discount-content ***/
+
+
+/* ------- */
+/**place-content***/
+.place{
+    padding-bottom: 100px;
+    margin: auto;
+  }
+  .place-p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+  }
+  .place-content-l{
+  
+  }
+  .place-title{
+    color: #131318;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 150% */
+  padding-right: 40px;
+  
+  }
+  .place-describe{
+    color:black;
+  font-family: Mulish;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  padding: 24px ;
+  
+  }
+  .place-ul{
+    display: block;
+    align-items: center;
+  
+  
+  
+  }
+  .place-ul li{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 162.5% */
+    padding-bottom: 15px;
+    
+  }
+  
+  
+  
+  
+  .place-video{
+    width: 510px;
+  height: 400px;
+  
+  
+  }
+  .btn-place{
+    margin-left: -170%;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #ff2a00;
+    
+   
+  }
+  /**end**/
+
+  .sec-email{
+   
+    margin: 0 auto;
+    display: flex;
+    padding: 20px 350px 220px 0px ;
+    width: 750px;
+    height: 250px;
+    padding-bottom: 8%;
+    margin-left: 15%;
+    gap: 20px;
+}
+.text-container{
+    margin-left: 40px;
+    border-radius: 18px;
+    border: 2px solid orangered;
+    background: rgba(255, 255, 255, 0.80);
+    width: 450px;
+    height:420px;
+    flex-shrink: 0;
+}
+
+.news{
+    padding-left: 10%;
+    color: black;
+    font-size: 27px;
+    font-weight: 800;
+}
+.get{
+    padding-left: 12%;
+    width: 550px;
+    color:black;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+.name-input{
+    margin-left: 10%;
+    padding: 20px 50px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 7%;
+}
+.email-input{
+    margin-left: 10%;
+    padding: 20px 50px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 7%;
+}
+.btn{
+    background: #FF5400;
+    border-radius: 6px;
+    padding: 10px 20px;
+    color: #FFF;
+    margin-left: 7%;
+}
+.img-container{
+    margin-top: 10px;
+    
+}
+.save{
+     padding-top: 30px;
+    padding-left: 50px; 
+    font-size: 32px;
+    color: #FFF;
+    background-color: #FF5400;
+    border-radius: 16px;
+    width: 230px;
+    height: 100px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+}
+.rotate{
+    position:relative;
+    left: 24%;
+    bottom: 95%;
+   
+}
+.travel-txt{
+    font-size: 12px;
+    color: #FFF;
+}
+
  /* footer section styles */
 footer {
     background: rgba(19, 19, 24, 0.05);
@@ -474,6 +824,7 @@ footer {
 height: 56.008px;
 flex-shrink: 0;
 padding-right: 20px;
+
 
 
 }
