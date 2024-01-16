@@ -290,6 +290,7 @@ padding-top: 10px;
 
 }
 
+
 .part1-img{
     padding-top: 9%;
     text-align: center;
@@ -301,6 +302,10 @@ padding-top: 10px;
     font-family: Mulish;
     font-size: 28px;
     font-weight: 800;
+}
+
+.part1-img:hover{
+    color:black;
 }
 .part2-img{
     margin-left: 25px;
@@ -314,6 +319,9 @@ padding-top: 10px;
     font-family: Mulish;
     font-size: 28px;
     font-weight: 800;
+}
+.part2-img:hover{
+    color:black;
 }
 .secondimg-row{
     display: flex;
@@ -337,6 +345,10 @@ padding-top: 10px;
     font-weight: 800;
 
 }
+
+.part3-img:hover{
+    color:black;
+}
 .part4-img{
     margin-left: 25px;
     padding-top: 7%;
@@ -351,6 +363,10 @@ padding-top: 10px;
     font-size: 28px;
     font-weight: 800;
 }
+
+.part4-img:hover{
+    color:black;
+}
 .part5-img{
     margin-left: 23px;
     padding-top: 7%;
@@ -364,6 +380,10 @@ padding-top: 10px;
     font-family: Mulish;
     font-size: 28px;
     font-weight: 800;
+}
+
+.part5-img:hover{
+    color:black;
 }
 .thirdimg-row{
     display: flex;
@@ -384,6 +404,9 @@ padding-top: 10px;
     font-size: 28px;
     font-weight: 800;
 }
+.part6-img:hover{
+    color:black;
+}
 .part7-img{
     margin-left: 25px;
     padding-top: 9%;
@@ -397,6 +420,9 @@ padding-top: 10px;
     font-family: Mulish;
     font-size: 28px;
     font-weight: 800;
+}
+.part7-img:hover{
+    color:black;
 }
 
 /* ------- */
@@ -442,15 +468,18 @@ padding-top: 10px;
   
     
   }
-  .my-card{
+  .my-card1{
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
-  
+    
   
   }
-  .my-card{
+  .my-card2{
     padding: 32px;
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
   }
  
   
@@ -481,9 +510,9 @@ padding-top: 10px;
   
   }
   .my-cards{
-      border-radius: 16px;
-    border: 1px solid rgba(233, 68, 68, 0.20);
-    background: rgba(233, 68, 68, 0.05);
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
       width: 573px;
       height: 284px;
     
