@@ -1,8 +1,10 @@
  .My-Nav{
-    justify-content: space-between;
+    /* justify-content: space-between;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; */
+   
+
 
 }
 
@@ -10,12 +12,14 @@
     
     margin: 0 auto;
     display: flex;
-    padding: 0px 235px ;
+
+    justify-content: space-between;
 
 }
 
 .start-div{
     display: flex;
+    
 }
 
 .start-ul li {
@@ -99,14 +103,19 @@ padding-right: 20px;
 .field{
 display: inline-flex;
 padding: 16px;
-align-items: flex-start;
+align-items: flex-end;
 gap: 24px;
 border-radius: 8px;
 background: rgba(255, 255, 255, 0.30);
 justify-content: center;
-padding-left: 20%;
-gap: 10PX;
+margin-left: 15%;
+
 justify-content: space-between;
+/* width: 400px; */
+}
+.find{
+    display: flex;
+    
 }
 .dest{
     
@@ -115,6 +124,7 @@ justify-content: space-between;
     width: 174px;
 height: 52px;
 flex-shrink: 0;
+padding-left: 10px;
 }
 .Time{
     width: 10%;
@@ -122,12 +132,14 @@ flex-shrink: 0;
     width: 174px;
 height: 52px;
 flex-shrink: 0;
+padding-left: 10px;
 }
 .select{
     border-radius: 8px;
     width: 174px;
 height: 52px;
 flex-shrink: 0;
+padding-left: 10px;
 }
 
 .btn{
@@ -135,6 +147,7 @@ flex-shrink: 0;
     border-radius: 6px;
     padding: 10px 20px;
     color: #FFF;
+    
     
 }
 .btn:hover{
@@ -260,7 +273,7 @@ padding-top: 10px;
  
 .universal-text{
     
-    padding: 20px 35px 235px  ;
+    padding: 20px 35px -100px  ;
     width: 1140px;
     height: 60px;
     margin-bottom: 40px;
@@ -511,16 +524,16 @@ padding-top: 10px;
 
  }
 /* /hotel part strats from here */ */
+.my-hotel{
+    margin-left: 100px;
+}
 .hotel{
-
-  
-   
-    width: 1500px;
-    
-  
-   
-   justify-content: center;
-   padding-left: 20%;
+    margin: 0 auto;
+    padding: 20px 035px 235px 0px ;
+    width: 1170px;
+    height: 1800px;
+   margin-left: 15%;
+   margin-bottom: 5px;
 
 }
 .background1{
@@ -557,6 +570,7 @@ padding-top: 10px;
    width: 1180px;
    height: 500px;
    margin-bottom: 3%;
+   justify-content: center;
 }
 
 .layout2{
@@ -599,8 +613,12 @@ padding-top: 10px;
 .layout-3{
     padding: 50px;
 }
-.btn-4{
-    margin-left: 25%;
+.btn{
+    
+    background: #FF5400;
+    border-radius: 6px;
+    padding: 10px 20px;
+    color: #FFF;
     
 }
 
@@ -673,10 +691,11 @@ padding-top: 10px;
   
   }
   .btn-place{
-    margin-left: -170%;
+ margin-left: -100%;
     padding: 10px 20px;
     border-radius: 8px;
     background-color: #ff2a00;
+    margin-top: 20px;
     
    
   }
@@ -803,9 +822,10 @@ footer {
     width: 60px;
     margin-left: 22px;
   }
-.start-div-f{
-    justify-self: center;
-    display: inline;
+.last{
+    display: flex;
+    justify-content: center;
+    
 }
 
   
