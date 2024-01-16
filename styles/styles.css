@@ -3,7 +3,8 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between; */
-   
+    width: 1170px;
+    padding-left: 20%;
 
 
 }
@@ -756,7 +757,7 @@ padding-top: 10px;
     border-radius: 6px;
     padding: 10px 20px;
     color: #FFF;
-    margin-left: 7%;
+    margin-left: 10%;
 }
 .img-container{
     margin-top: 10px;
